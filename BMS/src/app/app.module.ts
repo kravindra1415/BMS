@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CustomerloginComponent } from './customerlogin/customerlogin.component';
-import { AccountcreationComponent } from './accountcreation/accountcreation.component';
-import { TransfermoneyComponent } from './transfermoney/transfermoney.component';
+import { CustomerloginComponent } from './customer-login/customerlogin.component';
+import { AccountcreationComponent } from './account-creation/accountcreation.component'
+import { TransfermoneyComponent } from './transfer-money/transfermoney.component';
 import { InsuranceComponent } from './insurance/insurance.component';
 import { CheckbookComponent } from './checkbook/checkbook.component';
 import { FixedDepositComponent } from './fixed-deposit/fixed-deposit.component';

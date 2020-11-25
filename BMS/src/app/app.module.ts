@@ -13,6 +13,10 @@ import { FixedDepositComponent } from './fixed-deposit/fixed-deposit.component';
 import { ProfileUpdateComponent } from './profile-update/profile-update.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 import { LogoutComponent } from './logout/logout.component';
+import { WithdrawlComponent } from './withdrawl/withdrawl.component';
+import { DepositComponent } from './deposit/deposit.component';
+import { CashierComponent } from './cashier/cashier.component';
+import { ClerkComponent } from './clerk/clerk.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { LogoutComponent } from './logout/logout.component';
     FixedDepositComponent,
     ProfileUpdateComponent,
     TransactionHistoryComponent,
-    LogoutComponent
+    LogoutComponent,
+    WithdrawlComponent,
+    DepositComponent,
+    CashierComponent,
+    ClerkComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,6 @@
+.dropdown-item:hover
+{
+background:linear-gradient(45deg,rgb(240, 24, 24),rgb(33, 200, 223));
+color: white !important;
+box-shadow: 0 0 5px black;
+}

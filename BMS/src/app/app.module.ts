@@ -20,6 +20,7 @@ import { ClerkComponent } from './clerk/clerk.component';
 import { AccformverifyComponent } from './accformverify/accformverify.component';
 import { FdverifyComponent } from './fdverify/fdverify.component';
 import { AdminComponent } from './admin/admin.component';
+import{HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { AdminComponent } from './admin/admin.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
